@@ -1,0 +1,23 @@
+{
+  "name": "bgset",
+  "version": "1.0.0",
+  "description": "Responsive background images microlibrary",
+  "main": "bgset.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayalet/bgset.git"
+  },
+  "keywords": [],
+  "author": "Mateusz Luczak <mateusz.luczak@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayalet/bgset/issues"
+  },
+  "homepage": "https://github.com/hayalet/bgset#readme",
+  "devDependencies": {
+    "rollup": "^0.55.0"
+  }
+}
