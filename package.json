@@ -1,6 +1,6 @@
 {
   "name": "bgset",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Responsive background images microlibrary",
   "main": "dist/bgset.js",
   "module": "dist/bgset.es.js",
@@ -21,7 +21,7 @@
     "responsive"
   ],
   "author": "Mateusz Luczak <mateusz.luczak@outlook.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hayalet/bgset/issues"
   },

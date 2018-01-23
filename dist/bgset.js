@@ -1,5 +1,5 @@
 /*!
- * Bgset.js v1.0.0
+ * Bgset.js v1.0.2
  * (c) 2015-2018 Mateusz Łuczak
  * Released under the MIT License.
  */
