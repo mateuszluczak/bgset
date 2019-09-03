@@ -1,5 +1,5 @@
 /*!
- * Bgset.js v1.0.2
+ * Bgset.js v1.0.3
  * (c) 2015-2019 Mateusz Łuczak
  * Released under the MIT License.
  */
@@ -104,8 +104,6 @@ function runBgSet() {
 }
 
 runBgSet();
-
-windowindow.bgset = bgset;
 
 return bgset;
 

@@ -1,6 +1,6 @@
 {
   "name": "bgset",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Responsive background images microlibrary",
   "main": "dist/bgset.js",
   "module": "dist/bgset.es.js",

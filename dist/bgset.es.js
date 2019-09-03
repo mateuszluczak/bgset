@@ -94,6 +94,4 @@ function runBgSet() {
 
 runBgSet();
 
-windowindow.bgset = bgset;
-
 export default bgset;
