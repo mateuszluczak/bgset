@@ -1,6 +1,6 @@
 /*!
  * Bgset.js v1.0.2
- * (c) 2015-2018 Mateusz Łuczak
+ * (c) 2015-2019 Mateusz Łuczak
  * Released under the MIT License.
  */
 (function (global, factory) {
@@ -27,7 +27,7 @@ function bgset() {
 }
 
 function matchesMedia(media) {
-	return w.matchMedia && w.matchMedia(media).matches;
+	return window.matchMedia && window.matchMedia(media).matches;
 }
 
 function getMatch(rules) {
@@ -60,7 +60,7 @@ function applyBg(bg, element) {
 
 function getAllElements() {
 	var elems = [],
-		bgs = doc.querySelectorAll("[data-bgset]");
+		bgs = document.querySelectorAll("[data-bgset]");
 
 	for (var i = 0, len = bgs.length; i < len; i++) {
 		var currBg = bgs[i],
@@ -80,7 +80,7 @@ function runBgSet() {
 	bgset();
 	var intervalId = setInterval(function () {
 		bgset();
-		if (/^loaded|^i|^c/.test(doc.readyState)) {
+		if (/^loaded|^i|^c/.test(document.readyState)) {
 			clearInterval(intervalId);
 			return;
 		}
@@ -96,16 +96,16 @@ function runBgSet() {
 		resizeTimer = setTimeout(handleResize, 60);
 	}
 
-	if (w.addEventListener) {
-		w.addEventListener("resize", checkResize, false);
-	} else if (w.attachEvent) {
-		w.attachEvent("onresize", checkResize);
+	if (window.addEventListener) {
+		window.addEventListener("resize", checkResize, false);
+	} else if (window.attachEvent) {
+		window.attachEvent("onresize", checkResize);
 	}
 }
 
 runBgSet();
 
-window.bgset = bgset;
+windowindow.bgset = bgset;
 
 return bgset;
 
