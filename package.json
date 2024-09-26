@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/hayalet/bgset#readme",
   "devDependencies": {
-    "rollup": "^0.55.0"
+    "rollup": "^2.79.2"
   }
 }
